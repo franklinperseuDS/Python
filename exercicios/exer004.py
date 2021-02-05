@@ -4,5 +4,10 @@ n = input("digite alguma coisa: ")
 
 print(type(n))
 
-print(n.isalnum())
+print("É um alpha númerico ?", n.isalnum())
+print("É um alfabético ?",n.isalpha())
 print("O que foi digitado é númerico ?", n.isnumeric())
+print("É um maiúsculas ?", n.isupper())
+print("É um minúsculas ?", n.islower())
+print("É um Título? ?", n.istitle())
+
