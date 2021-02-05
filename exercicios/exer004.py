@@ -10,4 +10,5 @@ print("O que foi digitado é númerico ?", n.isnumeric())
 print("É um maiúsculas ?", n.isupper())
 print("É um minúsculas ?", n.islower())
 print("É um Título? ?", n.istitle())
+print("Apenas espaços?", n.isspace())
 
