@@ -3,4 +3,4 @@
 
 nome = input("Digite seu nome:\n")
 
-print ("Seja bem-vindo, ",nome)
+print ("Olá ",nome,", Seja bem-vindo, ")
