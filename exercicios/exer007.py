@@ -7,4 +7,4 @@ nota2 = float(input("Digite a segunda nota: "))
 
 media = (nota1 + nota2)/2
 
-print(f"O aluno ficou com a média {media:.2f}")
+print(f"O aluno ficou com a média {media:.1f}")

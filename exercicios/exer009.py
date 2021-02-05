@@ -9,5 +9,5 @@ numero = int(input("Digite um número: "))
 i = 0
 
 while i < 11:
-    print(f'{numero} * {i} = {numero*i}')
+    print(f'{numero} x {i:2} = {numero*i:2}')
     i= i+1

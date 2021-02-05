@@ -2,4 +2,4 @@
 print("==========Exercicio 5 ==========")
 numero = int(input("Digite um número: "))
 
-print(f'o antecessor é {numero - 1} \n o sucessor é {numero + 1}')
+print(f'Analisando o valor {numero},o antecessor é {numero - 1} \n o sucessor é {numero + 1}')

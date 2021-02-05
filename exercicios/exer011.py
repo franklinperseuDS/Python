@@ -4,10 +4,10 @@ print("="*10,"Exercicio 11", "="*10)
 altura = float(input('digite o valor da altura: '))
 largura = float(input('digite o valor da largura: '))
 
-area =  altura * largura
+area = altura * largura
 
 
 
 pintar = area / 2
 
-print(f'A area da parade é {area:.2f} m² e para pintar tem que usar {pintar:.2f} L')
+print(f'A area da parade é de {area:.2f} m² e para pintar tem que usar {pintar:.2f} L')
