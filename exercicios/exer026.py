@@ -8,12 +8,12 @@ Crie um programa que leia uma frase e mostre
 '''
 frase = input("Digite uma frase qualquer: ")
 
-frase = frase.upper()
+frase = frase.upper().strip()
 
 print(f'Aparecem {frase.count("A")} A')
 
 p = frase.find('A')
 u = frase.rfind('A')
 
-print(f'Posição do primeiro a {p}')
-print(f'Posição do ultimo a {u}')
+print(f'Posição do primeiro a {p+1}')
+print(f'Posição do ultimo a {u+1}')
